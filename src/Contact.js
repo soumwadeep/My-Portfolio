@@ -41,7 +41,7 @@ const Contact = () => {
               <label for="message">Your Message:</label>
               <textarea className="form-control" name="message" required></textarea>
             </div>
-            <button type="submit" className="btn btn-outline-success">Send Now</button>
+            <button type="submit" className="btn btn-success">Send Now</button>
           </form>
           </div>
         </div>

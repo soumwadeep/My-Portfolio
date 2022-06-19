@@ -27,6 +27,15 @@ body
   max-height: 400px;
   margin-bottom: 10px;
 }
+.imgrespic
+{
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  max-height: 400px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
 .imgreslogol
 {
   width: 100%;
@@ -75,6 +84,38 @@ body
   color: #3ee577;
   font-weight: bold;
   text-decoration: none;
+}
+.btn
+{
+  margin-bottom: 10px;
+  width: 150px;
+}
+.btn2
+{
+  width: 40px;
+  border-radius: 30px;
+  background-color: #130f40;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+}
+.fa
+{
+  margin-right: 5px;
+}
+.foota
+{
+  text-decoration: none;
+  color: black;
+}
+.foota:hover
+{
+  color: orange;
+}
+.gotop
+{
+  text-align: right!important;
 }
 .nav-link-active:hover,.navbar-nav-link:hover
 {
@@ -164,6 +205,10 @@ body
   line-height: 30px;
   color: white;
   border-radius: 20px;
+}
+b
+{
+  color: #3ee577;
 }
 #javap {
   width: 75%;

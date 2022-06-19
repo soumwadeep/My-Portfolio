@@ -8,7 +8,7 @@ const SideNav = () => {
       <div className="col-sm-4">
         <h2>Welcome To My Website</h2>
         <img src={logo} className="imgreslogo" alt="logo"/>
-        <p>World's Best Personal AI Doubt Solver!</p>
+        <p>" It's Harder To Read Code Than To Write It! "</p>
         <h3 className="mt-4">Latest Updates</h3>
         <p>Tools:</p>
         <ul className="nav nav-pills flex-column">

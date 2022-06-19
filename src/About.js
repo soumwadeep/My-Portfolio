@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Components/Header";
 import NavBar from "./Components/NavBar";
-import SideNav from "./Components/SideNav";
+import AboutSideNav from "./Components/AboutSideNav";
 import Footer from "./Components/Footer";
 import Author from "./Images/sit.jpg";
 import SkillSet from "./Components/SkillSet";
@@ -14,9 +14,10 @@ const About = () => {
       <NavBar />
       <div className="container mt-5">
         <div className="row">
-          <SideNav />
+          <AboutSideNav />
           <div className="col-sm-8">
-            <h2>About Me:</h2>
+            <section></section>
+            <h2 id="gotop">About Me:</h2>
             <center>
               <img src={Author} alt="author" className="imgresauthur" />
             </center>
@@ -29,11 +30,12 @@ const About = () => {
               Gain Knowledge Of Various Tech Fields.
             </p>
             <h2 className="mt-5">My Skills:</h2>
-            <SkillSet/>
+            <section id="skills"><SkillSet/></section>
             <h2 className="mt-5">My Experiences:</h2>
-            <Experiences/>
+            <section id="experiences"><Experiences/></section>
             <h2 className="mt-5">My Projects:</h2>
-            <Projects/>
+            <section id="projects"><Projects/></section>
+            <div className="gotop"><a className="btn btn-outline-warning btn2" href="#gotop" title="Go To Top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i>.</a></div>
           </div>
         </div>
       </div>
