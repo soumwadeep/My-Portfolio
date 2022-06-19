@@ -171,6 +171,18 @@ body
   min-height: 400px;
   height: auto;
 }
+.certframe
+{
+  width:100%; 
+  min-height:600px; 
+  height: auto;
+  border:0;
+}
+.carousel-caption
+{
+  color: red;
+  background: #130f40;
+}
 /* Skillset */
 #myProgress {
   width: 100%;

@@ -7,6 +7,7 @@ import Author from "./Images/sit.jpg";
 import SkillSet from "./Components/SkillSet";
 import Experiences from "./Components/Experiences";
 import Projects from "./Components/Projects";
+import Certificates from "./Components/Certificates";
 const About = () => {
   return (
     <>
@@ -33,6 +34,8 @@ const About = () => {
             <section id="skills"><SkillSet/></section>
             <h2 className="mt-5">My Experiences:</h2>
             <section id="experiences"><Experiences/></section>
+            <h2 className="mt-5">My Certificates:</h2>
+            <section id="projects"><Certificates/></section>
             <h2 className="mt-5">My Projects:</h2>
             <section id="projects"><Projects/></section>
             <div className="gotop"><a className="btn btn-outline-warning btn2" href="#gotop" title="Go To Top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i>.</a></div>
