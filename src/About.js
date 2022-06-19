@@ -38,7 +38,7 @@ const About = () => {
             <section id="projects"><Certificates/></section>
             <h2 className="mt-5">My Projects:</h2>
             <section id="projects"><Projects/></section>
-            <div className="gotop"><a className="btn btn-outline-warning btn2" href="#gotop" title="Go To Top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i>.</a></div>
+            <div className="gotop"><a className="btn btn-outline-warning btn2" href="#gotop" title="Go To Top"><i className="fa fa-chevron-circle-up" aria-hidden="true"></i>.</a></div>
           </div>
         </div>
       </div>

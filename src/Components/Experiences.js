@@ -2,11 +2,11 @@ import React from "react";
 const Experiences = () => {
   return (
     <>
-      <div class="row">
-        <div class="col"><h4>Education</h4></div>
-        <div class="col"><h4>Experiences</h4></div>
-        <div class="w-100"></div>
-        <div class="col">
+      <div className="row">
+        <div className="col"><h4>Education</h4></div>
+        <div className="col"><h4>Experiences</h4></div>
+        <div className="w-100"></div>
+        <div className="col">
         <p>
         *<b>2020-2024</b>
       </p>
@@ -29,7 +29,7 @@ const Experiences = () => {
         Public School With <b>72.2%</b> Marks.
       </p>
         </div>
-        <div class="col">
+        <div className="col">
         <p>
         *<b>2020-2024</b>
       </p>
