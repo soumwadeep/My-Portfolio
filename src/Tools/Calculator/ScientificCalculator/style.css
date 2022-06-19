@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,600&display=swap');
+
+* {
+  padding: 0;
+  margin: 5px;
+  text-align: center;
+  font-family: 'Alegreya', serif;
+}
+
+body {
+  background-color: #130f40;
+}
+
+.calculator {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  max-height: 320px;
+  background-color: #3ee577;
+  background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);
+  box-shadow: 0px 0px 0px 10px #6617CB;
+  border: 5px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  display: fit-content;
+  text-align: center;
+}
+
+#display {
+  width: 100%;
+  height: auto;
+  max-width: 320px;
+  max-height: 40px;
+  text-align: right;
+  background-color: black;
+  border: 3px solid white;
+  font-size: 18px;
+  left: 2px;
+  top: 2px;
+  color: greenyellow;
+  overflow: hidden;
+  text-align: center!important;
+}
+
+.btnTop {
+  width: 100%;
+  height: auto;
+  color: white;
+  border-radius: 10px;
+  background-color: #990000;
+  background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%);
+  font-size: 14px;
+  margin: 5px;
+  max-width: 50px;
+  max-height: 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btnNum {
+  width: 100%;
+  height: auto;
+  color: white;
+  border-radius: 10px;
+  background-color: #2234ae;
+  background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+  font-size: 14px;
+  margin: 5px;
+  max-width: 50px;
+  max-height: 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btnMath {
+  width: 100%;
+  height: auto;
+  color: white;
+  border-radius: 10px;
+  background-color: #990000;
+  background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%);
+  font-size: 14px;
+  margin: 5px;
+  max-width: 50px;
+  max-height: 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btnOpps {
+  width: 100%;
+  height: auto;
+  color: white;
+  border-radius: 10px;
+  background-color: #f5d020;
+  background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+  font-size: 14px;
+  margin: 5px;
+  max-width: 50px;
+  max-height: 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
