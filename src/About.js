@@ -34,7 +34,7 @@ const About = () => {
             <section id="skills"><SkillSet/></section>
             <h2 className="mt-5">My Experiences:</h2>
             <section id="experiences"><Experiences/></section>
-            <h2 className="mt-5">My Certificates:</h2>
+            <section id="certificates"><h2 className="mt-5">My Certificates:</h2></section>
             <section id="projects"><Certificates/></section>
             <h2 className="mt-5">My Projects:</h2>
             <section id="projects"><Projects/></section>

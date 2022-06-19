@@ -15,7 +15,13 @@ const AboutSideNav = () => {
             <a className="btn btn-success" href="#experiences"><i className="fa fa-graduation-cap" aria-hidden="true"></i>My Experiences</a>
           </li>
           <li className="nav-item">
+            <a className="btn btn-success" href="#certificates"><i className="fa fa-briefcase" aria-hidden="true"></i>My Certificates</a>
+          </li>
+          <li className="nav-item">
             <a className="btn btn-success" href="#projects"><i className="fa fa-briefcase" aria-hidden="true"></i>My Projects</a>
+          </li>
+          <li className="nav-item">
+            <a className="btn btn-success" href="https://docs.google.com/document/d/e/2PACX-1vSCLwqNW9kaMUIgSigpW7sLJCyOx0iWIAC6OLKKYAONkejfWCL2xM11JNr2AKS8y0tP3U50mhRE6jGG/pub"target="_blank"><i className="fa fa-file-text" aria-hidden="true"></i>My Resume</a>
           </li>
         </ul>
         <h3 className="mt-4">Links:</h3>

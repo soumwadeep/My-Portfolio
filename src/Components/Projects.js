@@ -38,7 +38,7 @@ const Projects = () => {
       <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4">
-            <img src={calcimg} className="img-fluid rounded-start" alt="todo"/>
+            <img src={calcimg} className="img-fluid rounded-start" alt="calc"/>
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -52,7 +52,7 @@ const Projects = () => {
       <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4">
-            <img src={quizimg} className="img-fluid rounded-start" alt="todo"/>
+            <img src={quizimg} className="img-fluid rounded-start" alt="quiz"/>
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -66,7 +66,7 @@ const Projects = () => {
       <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4">
-            <img src={sdgimg} className="img-fluid rounded-start" alt="todo"/>
+            <img src={sdgimg} className="img-fluid rounded-start" alt="sdg cloud server"/>
           </div>
           <div className="col-md-8">
             <div className="card-body">
