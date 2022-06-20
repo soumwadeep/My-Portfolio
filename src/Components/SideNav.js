@@ -10,6 +10,11 @@ const SideNav = () => {
         <img src={logo} className="imgreslogo" alt="logo"/>
         <p>" It's Harder To Read Code Than To Write It! "</p>
         <h3 className="mt-4">Latest Updates</h3>
+        <ul className="nav nav-pills flex-column">
+          <li className="nav-item">
+          <a href="https://blogs.soumwadeepguha.dev/"target="_black" rel="noreferrer" className="nav-link active">My Blogs</a>
+          </li>
+        </ul>
         <p>Tools:</p>
         <ul className="nav nav-pills flex-column">
           <li className="nav-item">
