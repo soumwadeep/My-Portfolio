@@ -7,18 +7,22 @@ This Website Consists Of Different Tools And Games Which Is Very Helpful For All
 
 **1.To Do List:**
 It's A Simple Todo App Which Can Be Used To Store Your Routine And Work Accordingly.
+**Visit: https://www.soumwadeepguha.dev/todo To Try It.**
 
 **2.Scientific Calculator:**
 When We Get Caught up With Some Difficult Sums We Can Use This Scientific Calculator To Solve The Problem Instantly.
+**Visit: https://www.soumwadeepguha.dev/calculator To Try It.**
 
 **Games:**
 
 **1.Tic-Tac-Toe Game:**
 When We Get Bored Of Our Daily Work Loads.We Can Play This Simple Renowned Game With Our Friends To Chill Out And Get Refreshed.
+**Visit: https://www.soumwadeepguha.dev/tictactoe To Play It.**
 
 **2.Quiz:**
 
 We All Know That We Love To Play Quizes Especially Of The Topic Of General Knowledge.So, Here We Can Play Quiz On GK WIth Infinite Questions Which Get's Fetched From Open Trivia DB API.
+**Visit: https://www.soumwadeepguha.dev/quiz To Play The Quiz.**
 
 # Getting Started with Create React App
 
