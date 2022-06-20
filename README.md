@@ -1,20 +1,22 @@
 # Info
+**Visit https://www.soumwadeepguha.dev/ For Live Proof.**
+
 This Website Consists Of Different Tools And Games Which Is Very Helpful For All The Students.
 
-Tools:
+**Tools:**
 
-1.To Do List:
+**1.To Do List:**
 It's A Simple Todo App Which Can Be Used To Store Your Routine And Work Accordingly.
 
-2.Scientific Calculator:
+**2.Scientific Calculator:**
 When We Get Caught up With Some Difficult Sums We Can Use This Scientific Calculator To Solve The Problem Instantly.
 
-Games:
+**Games:**
 
-1.Tic-Tac-Toe Game:
+**1.Tic-Tac-Toe Game:**
 When We Get Bored Of Our Daily Work Loads.We Can Play This Simple Renowned Game With Our Friends To Chill Out And Get Refreshed.
 
-2.Quiz:
+**2.Quiz:**
 
 We All Know That We Love To Play Quizes Especially Of The Topic Of General Knowledge.So, Here We Can Play Quiz On GK WIth Infinite Questions Which Get's Fetched From Open Trivia DB API.
 
