@@ -45,6 +45,7 @@ const NavBar = () => {
                   <li><NavLink className={(navData) => navData.isActive ? "nav-link-active" : "dropdown-item"} to=" ">Coming Soon</NavLink></li>
                 </ul>
               </li>
+              <a href="https://blogs.soumwadeepguha.dev/"target="_black" rel="noreferrer" className="navbar-nav-link">My Blogs</a>
               <NavLink className={(navData) => navData.isActive ? "nav-link-active" : "navbar-nav-link"} to="/about">About Me</NavLink>
               <NavLink className={(navData) => navData.isActive ? "nav-link-active" : "navbar-nav-link"} to="/contact">Contact Me</NavLink>
             </div>
