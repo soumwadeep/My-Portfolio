@@ -42,7 +42,7 @@ const NavBar = () => {
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><NavLink className={(navData) => navData.isActive ? "nav-link-active" : "dropdown-item"} to="/todo">Todo</NavLink></li>
                   <li><NavLink className={(navData) => navData.isActive ? "nav-link-active" : "dropdown-item"} to="/calculator">Calculator</NavLink></li>
-                  <li><NavLink className={(navData) => navData.isActive ? "nav-link-active" : "dropdown-item"} to=" ">Coming Soon</NavLink></li>
+                  <li><NavLink className={(navData) => navData.isActive ? "nav-link-active" : "dropdown-item"} to="/music">Music Player</NavLink></li>
                 </ul>
               </li>
               <a href="https://blogs.soumwadeepguha.dev/"target="_black" rel="noreferrer" className="navbar-nav-link">My Blogs</a>

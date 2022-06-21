@@ -23,6 +23,9 @@ const SideNav = () => {
           <li className="nav-item">
             <NavLink className="nav-link active" to="/calculator">Calculator</NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link active" to="/music">Music Player</NavLink>
+          </li>
         </ul>
         <p>Games:</p>
         <ul className="nav nav-pills flex-column">

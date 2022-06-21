@@ -162,6 +162,12 @@ a
   min-height: 800px;
   height: auto;
 }
+.musicframe
+{
+  width:100%;
+  min-height: 800px;
+  height: auto;
+}
 .todoframe
 {
   width:100%;
