@@ -4,21 +4,25 @@ $(document).ready(function () {
   //Add The Files With URl
   var Playlist = [
     {
-      Song: "Closer",
-      Src: "https://ncs-files-1.nyc3.digitaloceanspaces.com/mp3s/Unison-Aperture.mp3",
+      Song: "Royalty",
+      Src: "https://github.com/soumwadeep/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/Royalty.mp3",
     },
     {
-      Song: "Shape Of You",
-      Src: "https://ncs-files-1.nyc3.digitaloceanspaces.com/mp3s/Waysons%20-%20Eternal%20Minds.mp3",
+      Song: "Solitude",
+      Src: "https://github.com/soumwadeep/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/Solitude.mp3",
     },
     {
-      Song: "Unmistakable",
-      Src: "https://ncs-files-1.nyc3.digitaloceanspaces.com/mp3s/High%20Maintenance%20-%20Change%20Your%20Ways%20%28feat.%20Charlotte%20Haining%29.mp3",
+      Song: "Disfigure",
+      Src: "https://www.soumwadeepguha.dev/Tools/Music/MusicFiles/disfigure.mp3",
     },
     {
-      Song: "Unmade",
-      Src: "https://ncs-files-1.nyc3.digitaloceanspaces.com/mp3s/High%20Maintenance%20-%20Change%20Your%20Ways%20%28feat.%20Charlotte%20Haining%29.mp3",
+      Song: "Falling",
+      Src: "https://github.com/soumwadeep/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/falling.mp3",
     },
+    {
+      Song: "Warriyo Mortals",
+      Src: "https://github.com/soumwadeep/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/warriyo.mp3",
+    }
   ];
 
   $("#songName").html(Playlist[i]["Song"]);
