@@ -48,7 +48,7 @@ const game = () => {
         computerScore++;
         computerScoreBoard.textContent = computerScore;
       } else {
-        result.textContent = "Computer Chose Paper.So,You Won";
+        result.textContent = "Computer Chose Scissors.So,You Won";
         playerScore++;
         playerScoreBoard.textContent = playerScore;
       }
@@ -58,7 +58,7 @@ const game = () => {
         computerScore++;
         computerScoreBoard.textContent = computerScore;
       } else {
-        result.textContent = "Computer Chose Rock.So,You Won!";
+        result.textContent = "Computer Chose Paper.So,You Won!";
         playerScore++;
         playerScoreBoard.textContent = playerScore;
       }
@@ -68,7 +68,7 @@ const game = () => {
         computerScore++;
         computerScoreBoard.textContent = computerScore;
       } else {
-        result.textContent = "Computer Chose Scissors.So,You Won!";
+        result.textContent = "Computer Chose Rock.So,You Won!";
         playerScore++;
         playerScoreBoard.textContent = playerScore;
       }
