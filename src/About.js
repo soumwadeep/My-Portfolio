@@ -17,28 +17,45 @@ const About = () => {
         <div className="row">
           <AboutSideNav />
           <div className="col-sm-8">
-            <section></section>
-            <h2 id="gotop">About Me:</h2>
-            <center>
-              <img src={Author} alt="author" className="imgresauthur" />
-            </center>
-            <p>
-              I Am Soumwadeep Guha , Currently A 3rd Year Student Who Is
-              Persuing BTech In Computer Science And Engineering.I Am Currently
-              Working On This Website As A Student.I Am Good In Web Development
-              And Had Received Various Prizes In My Career In The Field Of Web
-              Development.To Be Precise I Am A Man Who Have A High Potential To
-              Gain Knowledge Of Various Tech Fields.
-            </p>
-            <h2 className="mt-5">My Skills:</h2>
-            <section id="skills"><SkillSet/></section>
-            <h2 className="mt-5">My Experiences:</h2>
-            <section id="experiences"><Experiences/></section>
-            <section id="certificates"><h2 className="mt-5">My Certificates:</h2></section>
-            <section id="projects"><Certificates/></section>
-            <h2 className="mt-5">My Projects:</h2>
-            <section id="projects"><Projects/></section>
-            <div className="gotop"><a className="btn btn-outline-warning btn2" href="#gotop" title="Go To Top"><i className="fa fa-chevron-circle-up" aria-hidden="true"></i>.</a></div>
+            <section id="gotop">
+              <h2>About Me:</h2>
+              <center>
+                <img src={Author} alt="author" className="imgresauthur" />
+              </center>
+              <p>
+                I Am Soumwadeep Guha , Currently A 3rd Year Student Who Is
+                Persuing BTech In Computer Science And Engineering.I Am
+                Currently Working On This Website As A Student.I Am Good In Web
+                Development And Had Received Various Prizes In My Career In The
+                Field Of Web Development.To Be Precise I Am A Man Who Have A
+                High Potential To Gain Knowledge Of Various Tech Fields.
+              </p>
+            </section>
+            <section id="skills">
+              <h2 className="mt-5">My Skills:</h2>
+              <SkillSet />
+            </section>
+            <section id="experiences">
+              <h2 className="mt-5">My Experiences:</h2>
+              <Experiences />
+            </section>
+            <section id="certificates">
+              <h2 className="mt-5">My Certificates:</h2>
+              <Certificates />
+            </section>
+            <section id="projects">
+              <h2 className="mt-5">My Projects:</h2>
+              <Projects />
+            </section>
+            <div className="gotopbut">
+              <a
+                className="btn btn-outline-warning btn2"
+                href="#gotop"
+                title="Go To Top"
+              >
+                <i className="fa fa-chevron-circle-up" aria-hidden="true"></i>.
+              </a>
+            </div>
           </div>
         </div>
       </div>

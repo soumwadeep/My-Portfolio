@@ -21,7 +21,7 @@ const AboutSideNav = () => {
             <a className="btn btn-success" href="#projects"><i className="fa fa-briefcase" aria-hidden="true"></i>My Projects</a>
           </li>
           <li className="nav-item">
-            <a className="btn btn-success" href="https://docs.google.com/document/d/e/2PACX-1vSCLwqNW9kaMUIgSigpW7sLJCyOx0iWIAC6OLKKYAONkejfWCL2xM11JNr2AKS8y0tP3U50mhRE6jGG/pub"target="_blank"><i className="fa fa-file-text" aria-hidden="true"></i>My Resume</a>
+            <a className="btn btn-success" href="https://docs.google.com/document/d/1iq4Od8a5Kbew9Wza8BlBVLwLdDF2H7I3U9wUJ3wf_jE/edit?usp=sharing"target="_blank" rel="noreferrer"><i className="fa fa-file-text" aria-hidden="true"></i>My Resume</a>
           </li>
         </ul>
         <h3 className="mt-4">Links:</h3>
