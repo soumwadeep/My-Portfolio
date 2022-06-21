@@ -1,0 +1,41 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <!-- Icon 4.7 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+  <section class="game">
+    <div class="score">
+      <div class="playerScore">
+        <h2>Your Score</h2>
+        <p class="p-count count">0</p>
+      </div>
+      <div class="computerScore">
+        <h2>Computer's Score</h2>
+        <p class="c-count count">0</p>
+      </div>
+    </div>
+
+    <div class="move">Choose Your Move:</div>
+    <div class="movesleft">Moves Remaining: 10</div>
+    <div class="options">
+      <button class="rock"><i class="fa fa-hand-rock-o" aria-hidden="true"></i>Rock</button>
+      <button class="paper"><i class="fa fa-hand-paper-o" aria-hidden="true"></i>Paper</button>
+      <button class="scissor"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i>Scissors</button>
+    </div>
+    <div class="result"></div>
+    <button class="reload"></button>
+  </section>
+  <script src="app.js"></script>
+</body>
+
+</html>

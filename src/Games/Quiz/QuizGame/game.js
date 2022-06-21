@@ -95,13 +95,14 @@ choices.forEach((choice) => {
             selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToApply === 'correct') {
+            alert('You Got It Right!');
             incrementScore(CORRECT_BONUS);
         }
         
         //mine
         if(classToApply === 'incorrect')
         {
-            alert('Correct Answer is: ' + currentQuestion.answer);
+            alert('Oops!Your Answer Is Wrong.'+'The Correct Answer Is: ' + currentQuestion.answer);
         }
 
         selectedChoice.parentElement.classList.add(classToApply);

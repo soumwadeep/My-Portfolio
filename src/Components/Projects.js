@@ -4,6 +4,7 @@ import tictactoeimg from '../Images/tictactoe.png'
 import calcimg from '../Images/calc.png'
 import quizimg from '../Images/quiz.png'
 import sdgimg from '../Images/sdgcloudserver.png'
+import rockimg from '../Images/rockpaper.png'
 const Projects = () => {
   return (
     <>
@@ -66,11 +67,25 @@ const Projects = () => {
       <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4">
+            <img src={rockimg} className="img-fluid rounded-start" alt="rock paper"/>
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+            <a href="https://www.soumwadeepguha.dev/rockpaperscissors"target="_blank" rel="noreferrer"><h5 className="card-title">5. Rock Paper & Scissors Web Game</h5></a>
+              <p className="card-text">When We Get Bored Of Our Daily Work Loads.We Can Play This Simple Renowned Game With Our Friends To Chill Out And Get Refreshed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="card mb-3">
+        <div className="row g-0">
+          <div className="col-md-4">
             <img src={sdgimg} className="img-fluid rounded-start" alt="sdg cloud server"/>
           </div>
           <div className="col-md-8">
             <div className="card-body">
-            <a href="https://sdgcloudserver.com/"target="_blank" rel="noreferrer"><h5 className="card-title">5. Sdg Cloud Server</h5></a>
+            <a href="https://sdgcloudserver.com/"target="_blank" rel="noreferrer"><h5 className="card-title">6. Sdg Cloud Server</h5></a>
               <p className="card-text">Sdg Cloud Server Is Created To Provide All The Users With The Facility Of Getting Access To All The Latest Documents,Videos,Music,Softwares,Games And More.</p>
             </div>
           </div>

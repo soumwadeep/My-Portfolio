@@ -30,6 +30,9 @@ const SideNav = () => {
             <NavLink className="nav-link active" to="/tictactoe">Tic-Tac-Toe</NavLink>
           </li>
           <li className="nav-item">
+            <NavLink className="nav-link active" to="/rockpaperscissors">Rock Paper Scissors</NavLink>
+          </li>
+          <li className="nav-item">
             <NavLink className="nav-link active" to="/quiz">Play Quiz</NavLink>
           </li>
         </ul>
