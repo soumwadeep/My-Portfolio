@@ -5,24 +5,24 @@ $(document).ready(function () {
   var Playlist = [
     {
       Song: "Royalty",
-      Src: "https://github.com/soumwadeep/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/Royalty.mp3",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/Royalty.mp3",
     },
     {
       Song: "Solitude",
-      Src: "https://github.com/soumwadeep/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/Solitude.mp3",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/Solitude.mp3",
     },
     {
       Song: "Disfigure",
-      Src: "https://www.soumwadeepguha.dev/Tools/Music/MusicFiles/disfigure.mp3",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/disfigure.mp3",
     },
     {
       Song: "Falling",
-      Src: "https://github.com/soumwadeep/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/falling.mp3",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/falling.mp3",
     },
     {
       Song: "Warriyo Mortals",
-      Src: "https://github.com/soumwadeep/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/warriyo.mp3",
-    }
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/warriyo.mp3",
+    },
   ];
 
   $("#songName").html(Playlist[i]["Song"]);
