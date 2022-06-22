@@ -91,7 +91,7 @@ const game = () => {
     if (playerScore > computerScore) {
       result.style.fontSize = "2rem";
       result.innerText = "Congratulations! You Won The Game!";
-      result.style.color = "#308D46";
+      result.style.color = "#3ee577";
     } else if (playerScore < computerScore) {
       result.style.fontSize = "2rem";
       result.innerText = "Oops! You Lost The Game.";
