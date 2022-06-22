@@ -16,7 +16,6 @@ const MusicPlayer = () => {
             <p>Best EDM Musics Ever!</p>
             <center>
               <h3>Enjoy Our Songs!</h3>
-              <br />
               <iframe src="https://soumwadeepguha.dev/Tools/Music/index.html" title="Music Player" className="musicframe" scrolling="no"></iframe>
             </center>
           </div>

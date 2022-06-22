@@ -158,7 +158,7 @@ input[type="range"]:focus {
   height: 0px;
   background: transparent;
   z-index: 1;
-  overflow: hidden;
+  overflow-y: scroll;
   transition: all 0.5s;
 }
 

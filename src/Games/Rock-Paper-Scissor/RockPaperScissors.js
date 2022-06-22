@@ -18,7 +18,6 @@ const RockPaperScissors = () => {
             <p>Choose Your Choice Each Time From The 3 Buttons To Play.</p>
             <center>
               <h3>Let The Game Begins!!!</h3>
-              <br />
               <iframe src="https://soumwadeepguha.dev/Games/RockPaperScissor/rockplay.html" title="Rock Paper Scissor Playground" className="rockframe" scrolling="no"></iframe>
             </center>
           </div>
