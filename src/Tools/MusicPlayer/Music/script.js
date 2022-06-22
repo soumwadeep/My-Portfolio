@@ -23,6 +23,14 @@ $(document).ready(function () {
       Song: "Warriyo Mortals",
       Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/warriyo.mp3",
     },
+    {
+      Song: "Top 20 NCS",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/top20ncs.mp3",
+    },
+    {
+      Song: "Top 20 Jarico",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/top20jarico.mp3",
+    },
   ];
 
   $("#songName").html(Playlist[i]["Song"]);
