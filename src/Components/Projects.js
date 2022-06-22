@@ -5,6 +5,7 @@ import calcimg from '../Images/calc.png'
 import quizimg from '../Images/quiz.png'
 import sdgimg from '../Images/sdgcloudserver.png'
 import rockimg from '../Images/rockpaper.png'
+import musicimg from '../Images/musicplayer.png'
 const Projects = () => {
   return (
     <>
@@ -81,11 +82,25 @@ const Projects = () => {
       <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4">
+            <img src={musicimg} className="img-fluid rounded-start" alt="music player"/>
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+            <a href="https://www.soumwadeepguha.dev/music"target="_blank" rel="noreferrer"><h5 className="card-title">6. Music Player</h5></a>
+              <p className="card-text">We Are All Fond Of Wonderful Songs Right? So, My Music Player Consists Of Best EDM Musics Of Famous Artists. By Listening To The Songs We Can Get Motivated To Work Prperly And Also We Can Relax By Listening To The Relaxing Songs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="card mb-3">
+        <div className="row g-0">
+          <div className="col-md-4">
             <img src={sdgimg} className="img-fluid rounded-start" alt="sdg cloud server"/>
           </div>
           <div className="col-md-8">
             <div className="card-body">
-            <a href="https://sdgcloudserver.com/"target="_blank" rel="noreferrer"><h5 className="card-title">6. Sdg Cloud Server</h5></a>
+            <a href="https://sdgcloudserver.com/"target="_blank" rel="noreferrer"><h5 className="card-title">7. Sdg Cloud Server</h5></a>
               <p className="card-text">Sdg Cloud Server Is Created To Provide All The Users With The Facility Of Getting Access To All The Latest Documents,Videos,Music,Softwares,Games And More.</p>
             </div>
           </div>
