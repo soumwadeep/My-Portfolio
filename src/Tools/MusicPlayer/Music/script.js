@@ -4,32 +4,32 @@ $(document).ready(function () {
   //Add The Files With URl
   var Playlist = [
     {
-      Song: "Royalty",
-      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/Royalty.mp3",
-    },
-    {
-      Song: "Solitude",
-      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/Solitude.mp3",
-    },
-    {
-      Song: "Disfigure",
-      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/disfigure.mp3",
-    },
-    {
-      Song: "Falling",
-      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/falling.mp3",
-    },
-    {
-      Song: "Warriyo Mortals",
-      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/warriyo.mp3",
-    },
-    {
-      Song: "Top 20 NCS",
+      Song: "Best Of NCS",
       Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/top20ncs.mp3",
     },
     {
-      Song: "Top 20 Jarico",
-      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/top20jarico.mp3",
+      Song: "Best Of Kishore Kumar",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/bestkishore.mp3",
+    },
+    {
+      Song: "Best Of Manna Dey",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/bestmanna.mp3",
+    },
+    {
+      Song: "Best Of Hemanta Mukherjee",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/besthemanta.mp3",
+    },
+    {
+      Song: "Best Of Jagjit Singh",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/bestjagjit.mp3",
+    },
+    {
+      Song: "Best Of Ghulam Ali",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/bestghulam.mp3",
+    },
+    {
+      Song: "Best Of Alan Walker",
+      Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/bestalan.mp3",
     },
   ];
 
