@@ -1,4 +1,5 @@
 # Info
+
 **Visit https://www.soumwadeepguha.dev/ For Live Proof.**
 
 This Website Consists Of Different Tools And Games Which Is Very Helpful For All The Students.
@@ -9,23 +10,35 @@ This Website Consists Of Different Tools And Games Which Is Very Helpful For All
 **Tools:**
 
 **1.To Do List:**
+
 It's A Simple Todo App Which Can Be Used To Store Your Routine And Work Accordingly.
+
 **Visit: https://www.soumwadeepguha.dev/todo To Try It.**
 
 ![todo](https://user-images.githubusercontent.com/69720515/174630629-75ac1e38-6310-49c3-843f-4684fe6785c8.png)
 
-
 **2.Scientific Calculator:**
+
 When We Get Caught up With Some Difficult Sums We Can Use This Scientific Calculator To Solve The Problem Instantly.
+
 **Visit: https://www.soumwadeepguha.dev/calculator To Try It.**
 
-
 ![calc](https://user-images.githubusercontent.com/69720515/174630654-b862bd3b-8399-451d-a039-12e8f9bf637f.png)
+
+**3.Music Player:**
+
+We Are All Fond Of Wonderful Songs Right? So, My Music Player Consists Of Best EDM Musics Of Famous Artists. By Listening To The Songs We Can Get Motivated To Work Prperly And Also We Can Relax By Listening To The Relaxing Songs.
+
+**Visit: https://www.soumwadeepguha.dev/music To Try It.**
+
+![musicplayer](https://user-images.githubusercontent.com/69720515/175754998-ea3e713a-2a00-4f73-a0cf-5b0897a33c68.png)
 
 **Games:**
 
 **1.Tic-Tac-Toe Game:**
+
 When We Get Bored Of Our Daily Work Loads.We Can Play This Simple Renowned Game With Our Friends To Chill Out And Get Refreshed.
+
 **Visit: https://www.soumwadeepguha.dev/tictactoe To Play It.**
 
 
@@ -34,10 +47,18 @@ When We Get Bored Of Our Daily Work Loads.We Can Play This Simple Renowned Game 
 **2.Quiz:**
 
 We All Know That We Love To Play Quizes Especially Of The Topic Of General Knowledge.So, Here We Can Play Quiz On GK WIth Infinite Questions Which Get's Fetched From Open Trivia DB API.
+
 **Visit: https://www.soumwadeepguha.dev/quiz To Play The Quiz.**
 
-
 ![quiz](https://user-images.githubusercontent.com/69720515/174630736-8b9fca37-5c96-4c0b-ab2f-76a912634ab3.png)
+
+**3.Rock Paper Scissors:**
+
+When We Get Bored Of Our Daily Work Loads.We Can Play This Simple Renowned Game With Our Friends To Chill Out And Get Refreshed.
+
+**Visit: https://www.soumwadeepguha.dev/rockpaperscissors To Play Rock Paper Scissors.**
+
+![rockpaper](https://user-images.githubusercontent.com/69720515/175754252-9b4d0332-59ec-4095-babd-89f9d8468296.png)
 
 # Getting Started with Create React App
 
