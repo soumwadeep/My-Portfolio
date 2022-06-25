@@ -4,31 +4,31 @@ $(document).ready(function () {
   //Add The Files With URl
   var Playlist = [
     {
-      Song: "Best Of NCS",
+      Song: "NCS",
       Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/top20ncs.mp3",
     },
     {
-      Song: "Best Of Kishore Kumar",
+      Song: "Kishore Kumar",
       Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/bestkishore.mp3",
     },
     {
-      Song: "Best Of Manna Dey",
+      Song: "Manna Dey",
       Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/bestmanna.mp3",
     },
     {
-      Song: "Best Of Hemanta Mukherjee",
+      Song: "Hemanta Mukherjee",
       Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/besthemanta.mp3",
     },
     {
-      Song: "Best Of Jagjit Singh",
+      Song: "Jagjit Singh",
       Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/bestjagjit.mp3",
     },
     {
-      Song: "Best Of Ghulam Ali",
+      Song: "Ghulam Ali",
       Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/bestghulam.mp3",
     },
     {
-      Song: "Best Of Alan Walker",
+      Song: "Alan Walker",
       Src: "https://soumwadeep.github.io/My-Portfolio/src/Tools/MusicPlayer/MusicFiles/bestalan.mp3",
     },
   ];
