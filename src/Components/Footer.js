@@ -14,7 +14,6 @@ const Footer = () => {
       <a className="foota" href="https://www.facebook.com/soumwadeep.guha"target="_blank" rel="noreferrer">* <i className="fa fa-facebook-square" aria-hidden="true"></i></a>
       <a className="foota" href="https://twitter.com/SoumwadeepGuha"target="_blank" rel="noreferrer">* <i className="fa fa-twitter-square" aria-hidden="true"></i></a>
       <a className="foota" href="https://www.instagram.com/soumwadeep/"target="_blank" rel="noreferrer">* <i className="fa fa-instagram" aria-hidden="true"></i></a>
-      <a className="foota" href="mailto:support@soumwadeepguha.dev"target="_blank" rel="noreferrer">* <i className="fa fa-envelope" aria-hidden="true"></i></a>
       </p>
     </div>
     </>
