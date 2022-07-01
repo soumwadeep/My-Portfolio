@@ -20,7 +20,7 @@ const Contact = () => {
           <h5>Want To Get In Touch? We'd Love To Hear From You.Just Fill This Form With Your Queries!</h5>
           <form action="https://formsubmit.co/e827bd8fd2a95d7e7576547bb1aad862" onSubmit={formSubmit} method="POST">
             <div>
-              <input type="hidden" name="_subject" value="New Contact Form Submission On Your Ai Helper!"/>
+              <input type="hidden" name="_subject" value="New Contact Form Submission On soumwadeep.likesyou.org!"/>
               <input type="hidden" name="_template" value="table"/>
               <input type="hidden" name="_captcha" value="false"/>
               <input type="hidden" name="_next" value="https://www.soumwadeepguha.dev/"/>

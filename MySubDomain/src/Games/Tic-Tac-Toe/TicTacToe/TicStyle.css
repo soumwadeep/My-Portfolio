@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,600&display=swap');
+body
+{
+  background-color: #130f40;
+  font-family: 'Alegreya', serif!important;
+}
+/* 3*3 Grid */
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9 {
+  width: 80px;
+  height: 52px;
+  margin: auto;
+  border: 1px solid #3ee577;
+  background-color: transparent;
+  color: white;
+  border-radius: 6px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium';
+}
+b 
+{
+  color: #3ee577;
+}
+/* Reset Button */
+#but {
+  box-sizing: border-box;
+  width: 95px;
+  height: 40px;
+  border: 1px solid #3ee577;
+  margin: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Alegreya', serif!important;
+}
+#but:hover {
+  background-color: #3ee577;
+  transition: 0.5s;
+  color: white;
+}
+
+/* Player turn space */
+#print {
+  color: wheat;
+  font-size: 20px;
+}
+
+/* Main Container */
+#main {
+  text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+  color: wheat;
+  font-size: 17px;
+}

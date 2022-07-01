@@ -59,7 +59,7 @@ const Projects = () => {
           <div className="col-md-8">
             <div className="card-body">
             <a href="https://www.soumwadeepguha.dev/quiz"target="_blank" rel="noreferrer"><h5 className="card-title">4. Quiz Web App</h5></a>
-              <p className="card-text">We All Know That We Love To Play Quizes Especially Of The Topic Of General Knowledge.So, Here We Can Play Quiz On GK WIth Infinite Questions Which Get's Fetched From API.</p>
+              <p className="card-text">We All Know That We Love To Play Quizzes Especially Of The Topic Of General Knowledge.So, Here We Can Play Quiz On GK With Infinite Questions Which Get's Fetched From API.</p>
             </div>
           </div>
         </div>

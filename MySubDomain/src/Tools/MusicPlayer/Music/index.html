@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Music Player</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Soumwadeep Guha" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Music Player,Soumwadeep Guha"
+    />
+    <meta name="description" content="HTML/CSS Audio Player" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <audio>
+      <source />
+    </audio>
+    <div class="container">
+      <div class="card">
+        <div class="card-img-top">
+          <div class="playlist overlay">
+            <ul class="list-group">
+              <h4
+                class="text-center"
+                style="padding: 10px; color: #3ee577; margin: 0"
+              >
+                - PLAYLIST -
+              </h4>
+              <button value="0" class="list-group-item">Best Of NCS</button>
+              <button value="1" class="list-group-item">Best Of Kishore Kumar</button>
+              <button value="2" class="list-group-item">Best Of Manna Dey</button>
+              <button value="3" class="list-group-item">Best Of Hemanta Mukherjee</button>
+              <button value="4" class="list-group-item">Best Of Jagjit Singh</button>
+              <button value="5" class="list-group-item">Best Of Ghulam Ali</button>
+              <button value="6" class="list-group-item">Best Of Alan Walker</button>
+            </ul>
+          </div>
+          <!-- Increase The Values And Insert Images For Each New Song -->
+          <div id="Album-carousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://soumwadeep.github.io/My-Portfolio/src/Images/ncs.jpg"
+                  class="album-img"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://soumwadeep.github.io/My-Portfolio/src/Images/kishore.jpg"
+                  class="album-img"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://soumwadeep.github.io/My-Portfolio/src/Images/manna.jpg"
+                  class="album-img"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://soumwadeep.github.io/My-Portfolio/src/Images/hemanta.jpg"
+                  class="album-img"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://soumwadeep.github.io/My-Portfolio/src/Images/jagjit.jpg"
+                  class="album-img"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://soumwadeep.github.io/My-Portfolio/src/Images/ghulam.jpg"
+                  class="album-img"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://soumwadeep.github.io/My-Portfolio/src/Images/alan.jpg"
+                  class="album-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <div id="range">
+            <div class="range-indicator range-indicator-pause">&nbsp;</div>
+            <input type="range" id="inputrange" />
+          </div>
+          <button id="playlist-btn" value="0">
+            <i class="fa fa-bars"></i>
+          </button>
+          <button id="shuffle-btn"><i class="fa fa-random"></i></button>
+          <div id="songName">&nbsp;</div>
+          <div id="tracktime">0/0</div>
+          <div class="controls">
+            <button id="prev" class="control-btn">
+              <i class="fa fa-backward"></i>
+            </button>
+            <button id="play-pause" class="control-btn" value="1">
+              <i class="fa fa-play"></i>
+            </button>
+            <button id="next" class="control-btn">
+              <i class="fa fa-forward"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+      integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

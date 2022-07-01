@@ -1,21 +1,22 @@
 import React from 'react'
-import logo from '../Images/logo.png'
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const SideNav = () => {
   return (
     <>
       <div className="col-sm-4">
-        <h2>Welcome To My Website</h2>
-        <img src={logo} className="imgreslogo" alt="logo"/>
-        <p>" It's Harder To Read Code Than To Write It! "</p>
-        <h3 className="mt-4">Latest Updates</h3>
+      <h3 className='mb-4'>Daily Quote:</h3>
+        <div align="center">
+          <iframe align="center" src="//widget.calendarlabs.com/v1/quot.php?cid=101&ver=1.2&uid=4845709568&c=random&l=en&cbg=009900&cb=1&cbc=666600&cf=calibri&cfg=FFFFFF&qfs=i&qta=left&tfg=FFFFFF&tfs=bi&afc=FFFFFF&afs=i" width="188" height="210" title='Quote Of The Day'>
+          </iframe>
+        </div>
+        <h3 className="mt-4 mb-4">Latest Updates:</h3>
         <ul className="nav nav-pills flex-column">
           <li className="nav-item">
-          <a href="https://blogs.soumwadeepguha.dev/"target="_black" rel="noreferrer" className="nav-link active">My Blogs</a>
+            <a href="https://blogs.soumwadeepguha.dev/" target="_black" rel="noreferrer" className="nav-link active">My Blogs</a>
           </li>
         </ul>
-        <p>Tools:</p>
+        <h4 className="mt-3 mb-3">Tools:</h4>
         <ul className="nav nav-pills flex-column">
           <li className="nav-item">
             <NavLink className="nav-link active" to="/todo">Todo</NavLink>
@@ -27,7 +28,7 @@ const SideNav = () => {
             <NavLink className="nav-link active" to="/music">Music Player</NavLink>
           </li>
         </ul>
-        <p>Games:</p>
+        <h4 className="mt-3 mb-3">Games:</h4>
         <ul className="nav nav-pills flex-column">
           <li className="nav-item">
             <NavLink className="nav-link active" to="/tictactoe">Tic-Tac-Toe</NavLink>
@@ -39,7 +40,7 @@ const SideNav = () => {
             <NavLink className="nav-link active" to="/quiz">Play Quiz</NavLink>
           </li>
         </ul>
-        <hr className="d-sm-none"/>
+        <hr className="d-sm-none" />
       </div>
     </>
   )
