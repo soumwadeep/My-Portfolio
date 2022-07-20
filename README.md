@@ -60,6 +60,11 @@ When We Get Bored Of Our Daily Work Loads.We Can Play This Simple Renowned Game 
 
 ![rockpaper](https://user-images.githubusercontent.com/69720515/175754252-9b4d0332-59ec-4095-babd-89f9d8468296.png)
 
+# Resume
+[Resume.pdf](https://github.com/soumwadeep/My-Portfolio/files/9147339/Resume.pdf)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
